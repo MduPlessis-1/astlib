@@ -158,6 +158,7 @@ v8::Handle<v8::Value> decodeAsterixBuffer(const v8::FunctionCallbackInfo<v8::Val
 //std::cout << "dec " << fullName << " len " << bytes << std::endl;
         astlib::CodecPolicy policy;
         policy.verbose = false;
+        policy.normalizeValues = false;
         astlib::BinaryAsterixDecoder decoder(policy);
 
         try

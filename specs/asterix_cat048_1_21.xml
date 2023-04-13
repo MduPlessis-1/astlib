@@ -942,7 +942,7 @@
                 <Bits from="32" to="17">
                     <BitsShortName>track.velocity.calculated.groundspeed</BitsShortName>
                     <BitsName>Calculated groundspeed</BitsName>
-                    <BitsUnit scale="0.22">kt</BitsUnit>
+                    <BitsUnit scale="0.0000610351563">NM</BitsUnit>
                 </Bits>
                 <Bits from="16" to="1">
                     <BitsShortName>track.velocity.calculated.heading</BitsShortName>
@@ -971,7 +971,7 @@
                     <Bits from="16" to="9">
                         <BitsShortName>track.quality.SigmaV</BitsShortName>
                         <BitsName>Sigma Groundspeed</BitsName>
-                        <BitsUnit scale="0.22">Kt</BitsUnit>        
+                        <BitsUnit scale="0.0000610351563">NM</BitsUnit>        
                     </Bits>
                     <Bits from="8" to="1">
                         <BitsShortName>track.quality.SigmaH</BitsShortName>
